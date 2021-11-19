@@ -141,7 +141,87 @@
 //     console.log("Guess what? This number is not divisible by 3 or 5!")
 // }
 
+// Activity4
+// let num = 15;
+// if (num % 3 == 0 && num % 5 == 0){
+//     console.log("fizz buzz");
+// } else if (num % 3 == 0) {
+//     console.log("fizz");
+// } else if (num % 5 == 0) {
+//     console.log("buzz");
+// } else {
+//     console.log(num)
+// }
 
+// Activity5
+// let num = 7007
+// let numArray = Array.from(String(num))
+// if (JSON.stringify(numArray) == JSON.stringify(numArray.reverse())) {
+// console.log(`${num} is palindrome`);
+// } else { console.log(`${num} is not palindrome`)
+// }
+
+// Activity6
+// let time = 845;
+// let placeOfWork = "Leeds";
+// let townOfHome = "Manchester";
+
+// function checkTime(time) {
+//     if (time > 830 && time < 930 ){
+//         console.log(`At ${time} I am commuting between ${townOfHome} and ${placeOfWork}`);
+//         return
+//     }
+
+//     if ( time > 1730 && 1830) {
+//         console.log(`At ${time} I am commuting between ${placeOfWork} and ${townOfHome}`);
+//         return
+//     }
+
+//     if (time >= 930 && time <= 1730) {
+//         console.log(`At ${time} I am in ${placeOfWork}`);
+//         return
+//     }
+
+//     console.log(`At ${time} I am in ${townOfHome}`);
+    
+// }
+
+// checkTime(time)
+
+// Activity7
+// let string = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi";
+// let array = Array.from(string).reverse();
+// let vowels = ["a", 'e', 'i', 'o', 'u'];
+// for (let i = 0; i < array.length; i++) {
+//     for (let j = 0; j < vowels.length; j++) {
+//         if (array[i] == vowels[j]) {
+//             console.log(array[i])
+//             return
+//         }
+//     }
+// }
+
+// Activity8
+// let word = "ciao"
+// let array = Array.from(word);
+// const check = () => {
+//     if (array[0] == array.slice(-1)[0]) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// console.log(check())
+
+// Activity 9
+// let num1 = 7;
+// let num2 = 3;
+// if ((num1 + num2) % 2 == 0) {
+//     console.log(num1 + num2)    
+// } else {
+//     console.log(num1 * num2)
+// }
 
 // Arrays
 // Activity 1
@@ -272,8 +352,10 @@
 // const takeOrder = (topping1, topping2) => {
 //     console.log (`Pizza with ${topping1} and ${topping2}`);
 //     orderCount++;
+//     console.log(orderCount)
 // }
 // takeOrder("burrata", "truffle")
+// takeOrder("burrata", "sweet peppers")
 
 // Activity3
 // const prompt = require('prompt-sync')();
