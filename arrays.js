@@ -40,13 +40,13 @@
 //     console.log(num);
 // }
 
-let array = [];
-for ( let i =0; i <= 9; i++ ) {
-    let num = Math.round(Math.random()*50);
-    array.push(num);
-    }
+// let array = [];
+// for ( let i =0; i <= 9; i++ ) {
+//     let num = Math.round(Math.random()*50);
+//     array.push(num);
+//     }
 
-console.log(array.reverse())
+// console.log(array.reverse())
 
 
 // let favMovies = ["Call me by your name", "His Secret Life", "Life is beautiful", 'Amélie'];
@@ -91,3 +91,14 @@ console.log(array.reverse())
 //     word.push("s");
 //     console.log(word);
 // } while (word.length < 50)
+
+num = 15
+if (num % 3 == 0  && num % 5 == 0) {
+    console.log("This number is indivisible by either 5 or 3!");
+} else if (num % 5 == 0){
+    console.log("This number is divisble by 5.");
+} else if  (num % 3 == 0) {
+    console.log("This number is divisible by 3!");
+} else {
+    console.log("This number is indivisible by either 5 or 3!") ;
+}
